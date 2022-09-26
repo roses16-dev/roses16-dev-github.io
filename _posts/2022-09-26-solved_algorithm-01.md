@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[solved algorithm] 시저 암호"
-categories: solved algorithm
+categories: "solved algorithm"
 tags: [javascript, solved algorithm]
 toc: true
 ---
