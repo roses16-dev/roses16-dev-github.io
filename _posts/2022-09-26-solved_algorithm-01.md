@@ -20,7 +20,7 @@ toc: true
 
 #### · 풀이코드
 
-- 이차배열 사용으로 코드 요약
+- 이차원배열 사용으로 코드 요약
 
 ```javascript
 function solution(s, n) {
