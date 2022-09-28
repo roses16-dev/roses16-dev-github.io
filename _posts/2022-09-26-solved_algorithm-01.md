@@ -4,9 +4,9 @@ title: "[solved algorithm] 시저 암호"
 categories: algorithm
 tags: javascript, solved algorithm
 toc: true
+sidebar:
+  nav: "docs"
 ---
-
-
 
 ### 시저 암호
 

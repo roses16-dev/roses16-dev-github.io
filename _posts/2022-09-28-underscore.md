@@ -3,8 +3,8 @@ layout: single
 title: "[javascript] 언더바(_)로 변수명을 선언하는 이유"
 categories: javascript
 tags: javascript, ETC
-
-toc: true
+sidebar:
+  nav: "docs"
 ---
 
 

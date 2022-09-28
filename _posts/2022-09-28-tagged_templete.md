@@ -4,23 +4,9 @@ title: "[javascript] 태그드 템플릿(Tagged template)"
 categories: javascript
 tags: javascript, basic
 toc: true
+sidebar:
+  nav: "docs"
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### 출처
-
-
 
 ### 템플릿 리터럴 ( template literal )
 

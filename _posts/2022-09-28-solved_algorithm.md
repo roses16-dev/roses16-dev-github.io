@@ -1,10 +1,11 @@
 ---
 layout: single
-title: "[solved algorithm] 시저 암호"
+title: "[solved algorithm] 신고 결과 받기"
 categories: algorithm
 tags: javascript, solved algorithm
 toc: true
-
+sidebar:
+  nav: "docs"
 ---
 
 ### 신고 결과 받기
