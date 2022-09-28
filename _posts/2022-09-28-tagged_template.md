@@ -8,6 +8,10 @@ sidebar:
   nav: "docs"
 ---
 
+템플릿 리터럴과 태그드 템플릿 정리
+
+
+
 ### 템플릿 리터럴 ( template literal )
 
 표현식을 허용하는 문자열 리터럴
