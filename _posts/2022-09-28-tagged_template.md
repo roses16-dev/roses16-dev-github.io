@@ -32,9 +32,9 @@ console.log(`a: ${a}, b: ${b}`)		// 결과값 : 'a: apple, b: banana'
 템플릿 리터럴은 변수 및 결과값을 그대로 대입하기 때문에 조건에 따라 다른 값을 대입하는 것이 어렵다. 이를 보완하기 위해 중간처리 함수를 통해 표현식의 값을 조건에 따라 변경할 수 있도록 하는 것이 태그드 템플릿이다.
 
 ```javascript
-function taggedTest(string, ...exp){			  // string 은 템플릿 리터럴의 문자열 부분을 배열로 전달받는다.
-    // 실행할 함수								// ...exp 은 템플릿 리터럴의 표현식 부분을 배열로 전달받는다.
-    return '문자열' 							  // return 값은 함수 호출 부분의 `템플릿리터럴` 부분으로 반환된다.
+function taggedTest(string, ...exp){  // string 은 템플릿 리터럴의 문자열 부분을 배열로 전달받는다.
+    // 실행할 함수                     // ...exp 은 템플릿 리터럴의 표현식 부분을 배열로 전달받는다.
+    return '문자열'                    // return 값은 함수 호출 부분의 `템플릿리터럴` 부분으로 반환된다.
 }
 
 console.log(taggedTest`템플릿 리터럴${변수사용}`)		// 이와 같이 호출한다. 템플릿 리터럴의 요소들은 모두 함수의 매개변수 값으로 입력된다.
@@ -50,7 +50,7 @@ function taggedF(str, ...exp){
     let temp ='';
 
     for(let i = 1 ; i < str.length ; i++){
-        if(i < str.length -1)				// 마지막 ${feel} 표현식을 제외한 부분에만 'red' 글자를 넣어주기 위해 사용했다.
+        if(i < str.length -1)     // 마지막 ${feel} 표현식을 제외한 부분에만 'red' 글자를 넣어주기 위해 사용했다.
             temp += 'red' + str[i]
     }
     
