@@ -60,3 +60,9 @@ let str = ""
 
 정규표현식 조건에 맞는 값이 없을 경우 `match()` 함수는 null 을 반환시키며, `null.length` 명령어는 Uncaught TypeError 로 동작을 멈춘다.
 `|| []`를 추가하여 match 함수의 반환값이 null일 경우 빈 array를 반환하게 하여 `[].length` 라는 정상적인 명령어를 사용하게 한다.
+
+
+
+### 참조
+
+> - https://mynameisdabin.tistory.com/10
