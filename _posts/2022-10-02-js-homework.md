@@ -1,18 +1,14 @@
 ---
 layout: single
-title: "[reacat] ES"
-categories: react
-tags: recat
+title: "[javascript] ES와 ES5, ES6의 차이점"
+categories: javascript
+tags: javascript
 toc: true
 sidebar:
   nav: "docs"
 
 
 ---
-
-리액트 입문 강의 정리 노트 입니다. 📚
-
-
 
 #### ES( ECMA Script )란?
 
