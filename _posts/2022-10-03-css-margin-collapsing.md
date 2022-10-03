@@ -31,7 +31,7 @@ sidebar:
 
 위 예제와 같이 상, 하, 좌, 우의 여백을 모두 가진 두 DIV 태그를 출력한 결과물은 아래와 같다.
 
-![image-20221003201230343](..\images\2022-10-03-css-margin-collapsing\image-20221003201230343.png)
+![image-20221003201230343](\images\2022-10-03-css-margin-collapsing\image-20221003201230343.png)
 
 두 DIV의 margin이 모두 20px 이라면 A DIV와 B DIV 사이 간격이 40px이어야하지만, CSS는 의도적으로 두 마진값을 하나로 병합하여 균일한 정렬에 도움을 주는데 이를 마진병합 이라고 말한다.
 ※ 병합 시에는 두 마진 중 큰 값으로 병합한다.
@@ -70,7 +70,7 @@ sidebar:
 
 위 예제와 같이 box DIV를 다른 DIV안에 담았을 때의 결과값은 아래와 같다.
 
-![](..\images\2022-10-03-css-margin-collapsing\image-20221003221804462.png)
+![](\images\2022-10-03-css-margin-collapsing\image-20221003221804462.png)
 
 margin-top 부분에서 마진 병합이 발생했다.
 부모 DIV에는 주지 않은 여백이 발생했고, 자식 DIV는 가져야할 마진이 부모DIV 바깥쪽의 마진과 병합되어 나타났다.
@@ -82,7 +82,7 @@ margin-top 부분에서 마진 병합이 발생했다.
 - Padding
 - overflow:hidden
 
-![image-20221003223656662](..\images\2022-10-03-css-margin-collapsing\image-20221003223656662.png)
+![image-20221003223656662](\images\2022-10-03-css-margin-collapsing\image-20221003223656662.png)
 
 
 
