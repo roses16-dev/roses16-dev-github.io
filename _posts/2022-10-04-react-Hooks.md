@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "[React] Hooks가 만들어진 이유"
-categories: React
+title: "[react] Hooks가 만들어진 이유"
+categories: react
 toc: true
 sidebar:
   nav: "docs"
