@@ -2,7 +2,7 @@
 layout: single
 title: "[javascript] 태그드 템플릿(Tagged template)"
 categories: javascript
-tags: javascript, basic
+tags: javascript basic
 toc: true
 sidebar:
   nav: "docs"

@@ -2,7 +2,7 @@
 layout: single
 title: "[javascript] 논리 연산자(logical operator) or와 and의 특이점"
 categories: javascript
-tags: javascript, basic
+tags: javascript basic
 sidebar:
   nav: "docs"
 ---
