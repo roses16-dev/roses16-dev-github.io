@@ -9,7 +9,7 @@ sidebar:
 
 ---
 
-### CSS Margin collapsing ( 마진 병합, 마진 붕괘) 에 대해 알아보자.
+### CSS Margin collapsing ( 마진 병합, 마진 붕괘 ) 
 
 #### 마진 병합 현상
 
