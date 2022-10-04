@@ -2,7 +2,7 @@
 layout: single
 title: "[javascript] 유사배열 (Array-like Object)"
 categories: javascript
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 
