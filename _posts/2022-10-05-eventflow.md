@@ -28,7 +28,7 @@ HTML은 여러 요소들이 중첩되어 쌓여있다.
 
 이 때 onClick 함수가 호출되는 순서는 아래와 같이 Capture phase와 Bubble phase 두 가지로 나누어진다.
 
-![image-20221005095224319](C:\Users\Minjoo\Desktop\devlog\roses16-dev.github.io\images\2022-10-05-eventflow\image-20221005095224319.png)
+![image-20221005095224319](\images\2022-10-05-eventflow\image-20221005095224319.png)
 
 위 이미지에서 Target은 직접 클릭이 발생한 최상위 요소를 가리킨다. 이벤트가 발생하면 `event.target.nodeName`으로 해당 요소를 확인할 수 있다. 
 Current target은 본인 요소를 말한다. 이벤트가 호출되었을 때 `this.nodeName`으로 확인할 수 있다.
