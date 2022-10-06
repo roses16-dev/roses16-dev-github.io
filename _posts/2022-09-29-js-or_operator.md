@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "[javascript] 논리 연산자(logical operator) or와 and의 특이점"
+title: "[javascript] 논리 연산자(logical operator) or와 and의 단축 평가 논리 계산법"
 categories: javascript
 tags: javascript basic
 sidebar:
   nav: "docs"
 ---
 
-### javascript  내 OR와 AND 연산자의 특이점
+### javascript  내 OR와 AND 연산자의 단축 평가 논리 계산법
 
 논리연산자는 많은 프로그래밍 언어에서 단순히 true와 false만을 반환하는 것으로 알려져 있으나 javascript 의 논리 연산자 중 or와 and는 조금 다르게 작동한다
 
