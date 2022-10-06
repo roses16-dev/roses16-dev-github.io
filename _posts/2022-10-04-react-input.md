@@ -1,8 +1,7 @@
 ---
 layout: single
-title: "[react] Input 태그 value 관리하기"
+title: "[react] Input 태그 value 접근하기"
 categories: react
-tags: 수정필요
 toc: true
 sidebar:
   nav: "docs"
@@ -12,7 +11,7 @@ sidebar:
 
 ### useState
 
-Input 태그 내 입력값이 변할 때 마다 ( onChage ) 해당 값을 setState로 저장하여 사용한다.
+Input 태그 내 입력값이 변할 때 마다 ( onChange ) 해당 값을 setState로 저장하여 사용한다.
 
 ```jsx
   const [name, setname] = useState('');					// useState 변수를 생성한다.
@@ -33,7 +32,24 @@ Input 태그 내 입력값이 변할 때 마다 ( onChage ) 해당 값을 setSta
 
 ### Ref
 
-( 🔔 차주에 배울 내용인 것 같아 숨참고 기다리는 중 )
+useRef Hook은 HTML요소에 접근할 때 사용한다.
+
+```jsx
+const [name, setname] = useState('');					
+const nameInput = useRef()							// 1. useRef 변수를 생성한다.
+
+  function changeName(){								
+    setname(nameInput.current.value)				
+    // 3. useRef변수(nameInput).current.value 에 할당된 HTML요소의 value 값을 가지고 있다.
+  }
+
+  return (
+      <input type="text" ref={nameInput}></input>	// 2. 생성한 useRef 변수를 HTML 할당한다.
+      <input type="button" onClick={changeName}></input>
+  );
+```
+
+같은 방식으로 Text Input 뿐 아니라 다른 HTML 요소에도 사용할 수 있다.
 
 
 
