@@ -1,12 +1,14 @@
 ---
 layout: single
 title: "[react] Hooks가 만들어진 이유"
-categories: react hooks
-tags: 수정필요
+categories: react
+tags: react hooks
 toc: true
 sidebar:
   nav: "docs"
 ---
+
+Hooks는 여러가지 용도로 사용된다. 아래는 그 중 일부에 대해 설명하고 있다.
 
 
 
