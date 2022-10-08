@@ -14,7 +14,9 @@ sidebar:
 Input 태그 내 입력값이 변할 때 마다 ( onChange ) 해당 값을 setState로 저장하여 사용한다.
 
 ```jsx
-  const [name, setname] = useState('');					// useState 변수를 생성한다.
+import { useState } from 'react'
+
+const [name, setname] = useState('');					// useState 변수를 생성한다.
 
   function onChange(event){								// 매개변수 'event'는 이벤트가 발생한 태그의 정보를 가져온다.
     setname(event.target.value)							// 값이 바뀔때마다 setname으로 name값을 변경해준다.
@@ -35,6 +37,7 @@ Input 태그 내 입력값이 변할 때 마다 ( onChange ) 해당 값을 setSt
 useRef Hook은 HTML요소에 접근할 때 사용한다.
 
 ```jsx
+import { useRef, useState } from 'react' 
 const [name, setname] = useState('');					
 const nameInput = useRef()							// 1. useRef 변수를 생성한다.
 
@@ -58,6 +61,7 @@ const nameInput = useRef()							// 1. useRef 변수를 생성한다.
 Form과 Submit 태그를 이용하여 event 정보를 받아와 사용한다.
 
 ```jsx
+import { useState } from 'react'
 function Form(){
     const [name, setname] = useState('');
     
