@@ -2,7 +2,7 @@
 layout: single
 title: "[solved algorithm] 시저 암호"
 categories: algorithm
-tags: javascript 'solved algorithm'
+tags: javascript algorithm
 toc: true
 sidebar:
   nav: "docs"

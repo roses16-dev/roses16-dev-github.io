@@ -2,7 +2,7 @@
 layout: single
 title: "[solved algorithm] JadenCase 문자열 만들기"
 categories: algorithm
-tags: javascript 'solved algorithm'
+tags: javascript algorithm
 toc: true
 sidebar:
   nav: "docs"
