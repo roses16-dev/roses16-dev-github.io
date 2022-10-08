@@ -2,10 +2,10 @@
 layout: single
 title: "[react] useEffect"
 categories: react
+tags: react useEffect
 toc: true
 sidebar:
   nav: "docs"
-
 ---
 
 useEffect는 component의 life cycle에 따라 실행될 함수를 정의하는 Hook 입니다. 
