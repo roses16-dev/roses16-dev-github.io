@@ -2,7 +2,7 @@
 layout: single
 title: "[javascript] ES와 ES5, ES6의 차이점"
 categories: javascript
-tags: javascript
+tags: javascript es ECMA_script
 toc: true
 sidebar:
   nav: "docs"

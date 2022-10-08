@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[react] Hooks가 만들어진 이유"
-categories: react
+categories: react hooks
 tags: 수정필요
 toc: true
 sidebar:

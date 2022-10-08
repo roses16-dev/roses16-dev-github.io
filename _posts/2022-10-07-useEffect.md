@@ -2,7 +2,7 @@
 layout: single
 title: "[react] useEffect"
 categories: react
-tags: react useEffect
+tags: react useEffect component_life_cycle
 toc: true
 sidebar:
   nav: "docs"

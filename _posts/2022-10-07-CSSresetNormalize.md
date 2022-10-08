@@ -2,7 +2,7 @@
 layout: single
 title: "[CSS] Reset & Normalize"
 categories: CSS
-tags: CSS
+tags: CSS reset normalize
 toc: true
 sidebar:
   nav: "docs"
