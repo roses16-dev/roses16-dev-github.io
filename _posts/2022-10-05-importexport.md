@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "[javascript] import & export"
-categories: javascript module
+categories: javascript
+tags: javascript module
 toc: true
 sidebar:
   nav: "docs"

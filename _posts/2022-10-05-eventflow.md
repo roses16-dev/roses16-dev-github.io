@@ -2,6 +2,7 @@
 layout: single
 title: "[HTML] 이벤트 전파 (Event flow)"
 categories: HTML
+tags: HTML Event
 sidebar:
   nav: "docs"
 ---
