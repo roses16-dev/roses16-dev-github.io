@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "[CSS] 마진 병합 ( Margin collapsing )"
-categories: CSS margin_collapsing
+categories: CSS
+tags: CSS margin_collapsing
 toc: true
 sidebar:
   nav: "docs"

@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "[javascript] 유사배열 (Array-like Object)"
-categories: javascript array-like_object
+categories: javascript
+tags: javascript array-like_object
 toc: false
 sidebar:
   nav: "docs"
