@@ -41,7 +41,7 @@ React Router dom은 SPA 방식 사이트에 페이지 이동을 구현해주는 
    Router의 기능처럼 URL(Route)과 페이지 컴포넌트를 매칭시킨다.
 
    ```jsx
-   // src/chared/Router.js
+   // src/shared/Router.js
    
    import React from "react";
    // React Router dom을 사용하기 위한 package import
@@ -76,8 +76,6 @@ React Router dom은 SPA 방식 사이트에 페이지 이동을 구현해주는 
             </>
    }
    ```
-
-
 
 
 
@@ -137,6 +135,20 @@ React Router dom은 SPA 방식 사이트에 페이지 이동을 구현해주는 
 
   컴포넌트 내에서 `const navigate = useNavigate()` Navigate 함수를 반환받고 `navigate("경로");` 로 이동한다.
 
+  ```javascript
+  import { useNavigate } from 'react'
+  
+  export default function COMPONENT_NAME() {
+      const navigate = useNavigate();
+      
+      const onClickHandler = () => {
+          navigate('/')
+      }
+      
+      return <button onclick={onClickHandler}>TAG</botton>
+  }
+  ```
+
   
 
 - `useLocation()`
@@ -149,4 +161,10 @@ React Router dom은 SPA 방식 사이트에 페이지 이동을 구현해주는 
 
   Hook이 아닌 API이다. HTML의 `a`태그 기능을 한다.
 
+  ```javascript
+  <Link to="/PATH"> TEXT  </Link>;
+  ```
+  
+  
+  
   
