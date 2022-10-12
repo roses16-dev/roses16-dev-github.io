@@ -3,7 +3,7 @@ layout: single
 title: "[javascript] Optional Chaining"
 categories: javascript
 tags: javascript
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---
@@ -23,3 +23,4 @@ obj.address?.middle  // undefined
 ```
 
 프로퍼티의 존재 여부가 불확실한 데이터에 접근할 때 사용한다.
+
