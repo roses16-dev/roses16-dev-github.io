@@ -73,3 +73,7 @@ sidebar:
   ```
 
   분리되어있던 Action 설정이 하나로 통합되었다.
+
+
+
+- 그 외 App.js에서 Provider 컴포넌트를 부모컴포넌트로 만드는 작업이나 useState, dispatch를 사용하는 방법은 모두 동일하다.
