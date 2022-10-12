@@ -6,7 +6,6 @@ tags: javascript
 toc: true
 sidebar:
   nav: "docs"
-
 ---
 
  Optional Chaining에 대한 정리 📕
@@ -23,3 +22,4 @@ obj.address.middle	 // TypeError
 obj.address?.middle  // undefined
 ```
 
+프로퍼티의 존재 여부가 불확실한 데이터에 접근할 때 사용한다.
