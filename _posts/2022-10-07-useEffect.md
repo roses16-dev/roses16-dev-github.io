@@ -22,7 +22,7 @@ useEffect는 component의 life cycle에 따라 실행될 함수를 정의하는 
 - Update : props, state 등이 바뀌는 것
 - Unmount : component가 브라우저에서 사라지는 것
 
-
+※ 위 예제는 class Component 를 기준으로 한다. 
 
 
 
@@ -33,7 +33,7 @@ useEffect는 component의 life cycle에 따라 실행될 함수를 정의하는 
 - Import
 
   ```jsx
-  import React, {useEffect} from 'react';
+  import React, { useEffect } from 'react';
   ```
 
   
