@@ -6,7 +6,6 @@ tags: network
 toc: true
 sidebar:
   nav: "docs"
-
 ---
 
 HTTP ( Hypertext Transfer Protocol ) 은 서버와 브라우저 간에 데이터를 주고 받기 위한 형식입니다.
