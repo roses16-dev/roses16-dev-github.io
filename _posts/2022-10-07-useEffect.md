@@ -16,13 +16,7 @@ useEffect는 component의 life cycle에 따라 실행될 함수를 정의하는 
 
 ---
 
-![image-20221007183914791](C:\Users\Minjoo\Desktop\devlog\roses16-dev.github.io\images\2022-10-07-useEffect\image-20221007183914791.png)
-
-- Mount : Component가 브라우저에 나타나는 것
-- Update : props, state 등이 바뀌는 것
-- Unmount : component가 브라우저에서 사라지는 것
-
-※ 위 예제는 class Component 를 기준으로 한다. 
+컴포넌트의 라이프 사이클에 대한 설명은 [ [링크](./componentLifecycle) ] 참조
 
 
 
