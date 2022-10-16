@@ -16,7 +16,7 @@ useEffect는 component의 life cycle에 따라 실행될 함수를 정의하는 
 
 ---
 
-컴포넌트의 라이프 사이클에 대한 설명은 [ [링크](./componentLifecycle) ] 참조
+컴포넌트의 라이프 사이클에 대한 설명은 [ [링크](/componentLifecycle) ] 참조
 
 
 
