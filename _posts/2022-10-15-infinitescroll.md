@@ -1,14 +1,12 @@
 ---
 layout: single
-title: "[react] Infinite Scroll"
+title: "[react] Scroll event를 이용하여 Infinite Scroll 구현하기"
 categories: react
 tags: react
 toc: true
 sidebar:
   nav: "docs"
 ---
-
-Infinite Scroll 구현해보기
 
 Infinite scroll을 구현하는 데에는 여러 방법이 있는데 그 중 scroll event를 이용하여 만들었다. 그 외 다른 방법은 아래 출처에 게시되어있다.
 
