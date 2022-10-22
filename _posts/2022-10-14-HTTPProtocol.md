@@ -55,6 +55,7 @@ HTTP Status Code( HTTP 상태 코드 )는 서버에서 브라우저로 보내주
 - 400번대 : Client error. Request코드가 잘못된 경우. 유효하지 않은 자원을 요청했거나, 요청이나 권한이 잘못된 경우
   - 400 : Bad Request. 잘못된 요청
   - 401 : Unauthorized. 권한 없이 요청. Authorization 헤더가 잘못된 경우
+    → 서버에서 AllowedHeader를 잘못 설정했을 가능성도 있음
   - 403 : Forbidden. 서버에서 해당 자원에 대해 접근 금지
   - 404 : 요청한 자원이 서버에 없음
   - 405 : Method Not Allowed. 허용되지 않은 요청 메서드
