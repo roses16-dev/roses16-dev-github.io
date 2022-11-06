@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Trouble Shooting] String 말 줄임 처리"
+title: "[Trouble Shooting] Mixed Content"
 categories: TroubleShooting
 tags: TroubleShooting
 toc: true
