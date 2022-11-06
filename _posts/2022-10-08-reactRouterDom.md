@@ -10,7 +10,11 @@ sidebar:
 
 React Router dom은 SPA 방식 사이트에 페이지 이동을 구현해주는 패키지이다.
 
-> 공식문서  https://reactrouter.com/en/v6.3.0
+> 공식문서 
+>
+> - https://reactrouter.com/en/v6.3.0
+>
+> - https://reactrouter.com/en/main
 
 
 
@@ -64,7 +68,9 @@ React Router dom은 SPA 방식 사이트에 페이지 이동을 구현해주는 
    export default Router;
    ```
 
-   
+   - Route Element propertis : `path`, `element`, `loader`, `action`, `errorElement`
+
+     
 
 3. **최상위 컴포넌트 `App.js`에 `Router.js`를 Import 한 후 Router 컴포넌트를 return 한다.**
 
