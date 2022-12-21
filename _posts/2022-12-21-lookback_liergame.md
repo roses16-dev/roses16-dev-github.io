@@ -17,7 +17,6 @@ sidebar:
 
 - 개발 기간 : 2022.11.04~2022.12.16 ( 6주 )
 - 사용 기술 : Javascript, React, Redux, SCSS, Axios, SockJS, Stomp, WebRTC, Open-vidu, AWS Amplify
-
 - 발표영상 : https://youtu.be/et2UZDITnOs
 
 
